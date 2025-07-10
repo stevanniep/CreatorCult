@@ -148,8 +148,8 @@
                 <a href="#team" class="text-gray-700 hover:text-orange-600 transition-colors duration-300 font-medium">Team</a>
                 <a href="#contact" class="text-gray-700 hover:text-orange-600 transition-colors duration-300 font-medium">Contact</a>
             </nav>
-            <a href="#contact" class="hidden md:inline-block bg-orange-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-orange-700 transition-all duration-300 hover-scale">
-                Get Started
+            <a href="admin-login.html" class="hidden md:inline-block bg-gray-800 text-orange-400 font-bold py-2 px-5 rounded-lg hover:bg-gray-700 transition-all duration-300 hover-scale border border-orange-600">
+                Admin Login
             </a>
         </div>
     </header>
