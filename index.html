@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 4 - CreatorCult</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <h1 class="logo"><a href="#home">CreatorCult</a></h1>
+            
+            <nav class="main-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#merchandise">Merchandise</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button id="get-started-btn" class="get-started-btn">Get Started</button>
+            
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Buka menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#merchandise">Merchandise</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="main-content">
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div>
+                <h2 class="hero-title">WELCOME TO CREATORCULT</h2>
+                <p class="hero-subtitle">
+                    Your trusted partner in merchandise and branding solutions that make an impact.
+                </p>
+                <div class="hero-button">
+                    <a href="#about">Learn More</a>
+                </div>
+                <div class="scroll-down-container">
+                    <a href="#about" class="scroll-down-icon">
+                        <svg style="width: 2rem; height: 2rem; color: white; margin: 0 auto;" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 9l-7 7-7-7"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section" style="background-color: var(--gray-50);">
+            <div class="container" style="text-align: center;">
+                <div class="scroll-animation">
+                    <h2 class="section-title">About Us</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle" style="line-height: 1.6;">
+                        We are a cult of creators dedicated to promote our member's merchandise. From community voted ideas of items to limited time merchandise, we provide high-quality merchandise with a reasonable price. Join us and succeed.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container" style="text-align: center;">
+                <div class="scroll-animation">
+                    <h2 class="section-title">Our Services</h2>
+                    <div class="section-divider" style="margin-bottom: 3rem;"></div>
+                </div>
+                <div class="grid" id="services-grid">
+                    <div class="scroll-animation service-card login-trigger">
+                        <h3>Join Cult</h3>
+                        <p>Indoctrinate yourself into our cult of creators and like-minded individuals for success.</p>
+                    </div>
+                    <a href="suggestion-box.html" class="scroll-animation service-card" style="animation-delay: 0.1s;">
+                        <h3>Suggestion Box</h3>
+                        <p>Share your ideas and feedback with us. We value your input and use it to improve our services continuously.</p>
+                    </a>
+                    <a href="customer-service.html" class="scroll-animation service-card" style="animation-delay: 0.2s;">
+                        <h3>Customer Service</h3>
+                        <p>Get dedicated support from our team. We're here to help you every step of the way with personalized assistance.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Merchandise Section -->
+        <section id="merchandise" class="section" style="background-color: var(--gray-50);">
+            <div class="container" style="text-align: center;">
+                <div class="scroll-animation">
+                    <h2 class="section-title">Creator Merchandise</h2>
+                    <div class="section-divider" style="margin-bottom: 3rem;"></div>
+                    <p class="section-subtitle">
+                        Discover exclusive merchandise from our featured content creators. Each piece is designed with passion and represents their unique brand.
+                    </p>
+                </div>
+                <div class="grid" id="merchandise-grid">
+                    <!-- Merchandise cards will be injected here by JS -->
+                </div>
+                <div class="section-button scroll-animation">
+                    <a href="#contact">Shop All Merchandise</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="section">
+            <div class="container" style="text-align: center;">
+                <div class="scroll-animation">
+                    <h2 class="section-title">MEET OUR TEAM</h2>
+                    <div class="section-divider" style="margin-bottom: 3rem;"></div>
+                </div>
+                <div class="grid" id="team-grid" style="gap: 2rem;">
+                    <div class="team-card" style="animation-delay: 0s;">
+                        <img src="https://placehold.co/200x200/EAB308/FFFFFF?text=A" alt="Foto profil Adam">
+                        <div class="card-content">
+                            <h3>Adam</h3>
+                            <p class="role">Founder & Visionary</p>
+                            <p class="description">
+                                Adam is the mastermind behind CreatorCult, leading with a vision to empower creators.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-card" style="animation-delay: 0.5s;">
+                        <img src="https://placehold.co/200x200/C026D3/FFFFFF?text=A" alt="Foto profil Abraham">
+                        <div class="card-content">
+                            <h3>Abraham</h3>
+                            <p class="role">Co-Founder & Operations</p>
+                            <p class="description">
+                                Abraham ensures all operations run smoothly, from production to delivery.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-card" style="animation-delay: 1s;">
+                        <img src="https://placehold.co/200x200/7C3AED/FFFFFF?text=S" alt="Foto profil Stevannie">
+                        <div class="card-content">
+                            <h3>Stevannie</h3>
+                            <p class="role">CEO & Lead Strategist</p>
+                            <p class="description">
+                                Stevannie designs growth and partnership strategies to take CreatorCult to the next level.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" style="background-color: var(--gray-50);">
+            <div class="container" style="text-align: center;">
+                <div class="scroll-animation">
+                    <h2 class="section-title">Find Us</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Have a project in mind or want to visit? We'd love to hear from you. Reach out via email or find us at our main location.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:contact@creatorcult.com">contact@creatorcult.com</a></p>
+                        <p><strong>Instagram:</strong> <a href="#">@creatorcult</a></p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3044480783515!2d107.62777107492408!3d-6.973362593027331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9adf177bf8d%3A0x437398556f9fa03!2sTelkom%20University!5e0!3m2!1sen!2sid!4v1752131261596!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 CreatorCult. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Login Modal -->
+    <div id="login-modal-container" class="modal-container hidden">
+        <div id="login-modal-overlay" class="modal-overlay"></div>
+        <div class="modal-wrapper">
+            <div id="login-modal-content" class="modal-content">
+                <button id="close-login-modal-btn" class="close-modal-btn">
+                    <svg style="width: 1.5rem; height: 1.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+                <div style="text-align: center;">
+                    <h2 class="section-title" style="margin-bottom: 0.5rem;">Welcome Back!</h2>
+                    <p style="color: var(--gray-600);">Sign in to join the cult.</p>
+                </div>
+                <form id="login-form" class="modal-form">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password" autocomplete="current-password" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="captcha">Verification</label>
+                         <div class="captcha-container">
+                            <div id="captcha-display"></div>
+                            <button type="button" id="refresh-captcha-btn">
+                                <svg style="width: 1.5rem; height: 1.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h5M20 20v-5h-5M4 4l1.5 1.5A9 9 0 0120.5 15"></path></svg>
+                            </button>
+                         </div>
+                         <input id="captcha" name="captcha" type="text" required placeholder="Enter the text above">
+                    </div>
+                    <div id="login-error-message" class="error-message"></div>
+                    <div class="form-options">
+                        <div class="remember-me">
+                            <input id="remember-me" name="remember-me" type="checkbox">
+                            <label for="remember-me">Remember me</label>
+                        </div>
+                        <div class="forgot-password">
+                            <a href="#">Forgot your password?</a>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="submit-btn">
+                            Sign In
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Suggestion Modal -->
+    <div id="suggestion-modal-container" class="modal-container hidden">
+        <div id="suggestion-modal-overlay" class="modal-overlay"></div>
+        <div class="modal-wrapper">
+            <div id="suggestion-modal-content" class="modal-content">
+                <button id="close-suggestion-modal-btn" class="close-modal-btn">
+                    <svg style="width: 1.5rem; height: 1.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+                <div style="text-align: center;">
+                    <h2 class="section-title" style="margin-bottom: 0.5rem;">Got an Idea?</h2>
+                    <p style="color: var(--gray-600);">We'd love to hear your suggestions!</p>
+                </div>
+                <form id="suggestion-form" class="modal-form">
+                    <div class="form-group">
+                        <label for="suggestion-name">Nama</label>
+                        <input id="suggestion-name" name="name" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="suggestion-email">Email</label>
+                        <input id="suggestion-email" name="email" type="email" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="suggestion-message">Pesan / Saran</label>
+                         <textarea id="suggestion-message" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="submit-btn">
+                            Kirim
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
