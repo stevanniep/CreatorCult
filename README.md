@@ -1,22 +1,3 @@
-# 🛍️ CreatorCult  
-**Merchandise for Content Creators** — Wear Your Brand, Share Your Vibe
-
-## 🌟 Overview
-
-**CreatorCult** is a modern and stylish e-commerce website dedicated to content creators who want to turn their brand into wearable, sharable merchandise. Whether you're a streamer, vlogger, or digital artist, CreatorCult helps you showcase your identity through custom merch designed for your fans and followers.
-
-The website is built with a smooth user experience and modern design principles to ensure every visitor feels inspired to represent their favorite creator.
-
-## 📸 Website Preview
-![image](https://github.com/user-attachments/assets/da2b616b-8dff-4618-9a18-eb1e8d8e46cd)
-
-
-## 👥 Team Members
-- [Adam Darwish bin Syuaib](https://github.com/AdamD187)
-- [Abraham Benedik](https://github.com/bramcps)
-- [Stevannie Pratama](https://github.com/stevanniep)
-
-
 # 🛍️ CreatorCult
 ### _Wear Your Brand, Share Your Vibe_
 
@@ -50,18 +31,6 @@ The site is equipped with various modern features to provide an engaging user ex
 * 📱 **Responsive Design:** The layout adapts seamlessly to various screen sizes, from desktop to mobile.
 * 📜 **Scroll-Reveal Animation:** Elements smoothly animate into view as the user scrolls down the page.
 * 🚫 **No CSS Framework:** All styling and animations are built with pure CSS for optimal performance and self-contained code.
-
----
-
-## 🖼️ Recommended Screenshots
-
-To showcase all the cool features in this project, I recommend you take and add screenshots of the following sections:
-
-1.  **Hero Section (Main View):** Capture a full-screen image of the top of the page.
-2.  **"Our Team" Section:** Show the unique profile card design with its floating animation.
-3.  **Login Popup:** Click "Get Started," then capture the login modal appearing over the blurred page background.
-4.  **Merchandise Section:** Display the dynamic product grid.
-5.  **Responsive View (Mobile):** Use your browser's developer tools to switch to a mobile view and take a screenshot to demonstrate its flexible design.
 
 ---
 
