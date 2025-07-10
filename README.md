@@ -16,7 +16,7 @@ This project was built from scratch without using a CSS framework like Tailwind,
 
 The main view of the CreatorCult landing page, featuring the hero section with a gradient animation and typing effect.
 
-![CreatorCult Website Preview](https://github.com/user-attachments/assets/da2b616b-8dff-4618-9a18-eb1e8d8e46cd)
+![CreatorCult Website Preview](https://github.com/user-attachments/assets/94106ca1-ce9b-4fe4-a10a-d52f6388db10)
 
 ## ✨ Key Features
 
@@ -30,7 +30,6 @@ The site is equipped with various modern features to provide an engaging user ex
 * 🗺️ **Interactive Map:** A styled Google Maps embed with hover animations.
 * 📱 **Responsive Design:** The layout adapts seamlessly to various screen sizes, from desktop to mobile.
 * 📜 **Scroll-Reveal Animation:** Elements smoothly animate into view as the user scrolls down the page.
-* 🚫 **No CSS Framework:** All styling and animations are built with pure CSS for optimal performance and self-contained code.
 
 ---
 
@@ -49,7 +48,7 @@ This project requires no installation or build tools. Just follow these steps:
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
+    git clone https://github.com/stevanniep.git
     ```
 2.  **Open the `index.html` file in your favorite browser.**
 
